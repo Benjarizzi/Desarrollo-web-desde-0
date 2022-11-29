@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Registra tu Negocio</title>
+    <link rel="Stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header class="HeaderRN">
+        <div>
+            <h1 >REGISTRÁ TU NEGOCIO</h1>
+        </div>
+    <div class="imagenfrutaRN">
+        <img src="Imágenes/BERRY'S.png" >
+    </div>
+</header>
+    <form class="FormularioRN"><!--Formulario-->
+        <fieldset><!--Caja que rodea-->
+            <legend class="colorlegend"><i>Sumate a BERRY'S</i></legend><!--Nombre sobre la caja-->
+            <label for="TN"><Strong>Tipo de Negocio:</Strong></label>
+        <select name="TN" id="TN"><!--Menu desplegable con opciones-->
+        <option value="Restaurante">Restaurante</option>
+        <option value="Café">Café</option>
+        <option value="Bebidas">Bebidas</option>
+        <option value="Farmacia">Farmacia</option>
+        <option value="Kiosko">Kiosko</option>
+        </select required><br><br>
+
+        <label for="NC"><strong>Nombre del negocio:</strong></label><br>
+        <input type="text" id="NN" name="NN" required><br> <!--Nombre-->
+
+        <label for="N"><strong>Direccion del local:</strong></label><br>
+        <input type="text" id="D" name="D" required><br>
+
+        <label for="N"><strong>Nombre:</strong></label><br>
+        <input type="text" id="N" name="N" required><br>
+
+        <label for="AP"><strong>Apellido:</strong></label><br>
+        <input type="text" id="AP" name="AP" required><br><!--Apellido-->
+
+        <label for="EM"><strong>Email:</strong></label><br>
+        <input type="email" id="EM" name="EM" required><br><br><!--Email-->
+
+
+    </fieldset>
+
+        <input type="submit" value="Enviar"><!--Enviar formulario-->
+        <input type="reset" value="Restablecer"><!--Boton para borrar todo-->
+        </form><br>
+        <div> 
+            <footer class="FooterRN">
+            <a href="index.html"><strong>Inicio</strong></a><br>
+        </footer>
+    </div>
+       
+        
+</body>
+</html>
