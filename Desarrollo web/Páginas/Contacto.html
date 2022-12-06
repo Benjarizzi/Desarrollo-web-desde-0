@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Contacto</title>
     <link rel="Stylesheet" href="Estilos.css">
 </head>
+
 <body>
     <header class="headercontacto">
         <div>
             <h1>CONTACTO</h1>
         </div>
     </header>
-    <form id="Formulariocontacto"><!--Formulario-->
-        <fieldset class="Fieldset"><!--Caja que rodea-->
-        <!--"LEGEND" Nombre sobre la caja-->
+    <form id="Formulariocontacto">
+        <!--Formulario-->
+        <fieldset class="Fieldset">
+            <!--Caja que rodea-->
+            <!--"LEGEND" Nombre sobre la caja-->
 
-        <label for="NC"><strong>Nombre:</strong></label><br>
-        <input type="text" id="NC" name="NC" required><br> <!--Nombre-->
+            <label for="NC"><strong>Nombre:</strong></label><br>
+            <input type="text" id="NC" name="NC" required><br>
+            <!--Nombre-->
 
-        <label for="AP"><strong>Apellido:</strong></label><br>
-        <input type="text" id="AP" name="AP" required><br><!--Apellido-->
+            <label for="AP"><strong>Apellido:</strong></label><br>
+            <input type="text" id="AP" name="AP" required><br>
+            <!--Apellido-->
 
-        <label for="EM"><strong>Email:</strong></label><br>
-        <input type="email" id="EM" name="EM" required><br><br><!--Email-->
+            <label for="EM"><strong>Email:</strong></label><br>
+            <input type="email" id="EM" name="EM" required><br><br>
+            <!--Email-->
 
-        <label for="G"><strong>Género:</strong></label><br>
-        <input type="radio" id="Mujer" name="Mujer"><!--Para tildar solo uno (Debe tener el mismo name)-->
-        <label for="Mujer"><i>Mujer</i></label><br>
-        <input type="radio" id="Hombre" name="Mujer">
-        <label for="Hombre"><i>Hombre</i></label><br>
-        <input type="radio" id="NB" name="Mujer">
-        <label for="NB"><i>No binario</i></label><br>
-        <input type="radio" id="O" name="Mujer">
-        <label for="O"><i>Otro</i></label><br><br>
+            <label for="G"><strong>Género:</strong></label><br>
+            <input type="radio" id="Mujer" name="Mujer">
+            <!--Para tildar solo uno (Debe tener el mismo name)-->
+            <label for="Mujer"><i>Mujer</i></label><br>
+            <input type="radio" id="Hombre" name="Mujer">
+            <label for="Hombre"><i>Hombre</i></label><br>
+            <input type="radio" id="NB" name="Mujer">
+            <label for="NB"><i>No binario</i></label><br>
+            <input type="radio" id="O" name="Mujer">
+            <label for="O"><i>Otro</i></label><br><br>
 
-        <label for="Birthday"><strong>Fecha de nacimiento:</strong></label>
-        <input type="date" id="D" name="D" required><br><br><!--Fecha de nacimiento-->
+            <label for="Birthday"><strong>Fecha de nacimiento:</strong></label>
+            <input type="date" id="D" name="D" required><br><br>
+            <!--Fecha de nacimiento-->
 
-        <label for="EC"><Strong>Estado civil:</Strong></label>
-        <select name="EC" id="EC"><!--Menu desplegable con opciones-->
-        <option value="Soltero(a)">Soltero(a)</option>
-        <option value="Casado(a)">Casado(a)</option>
-        <option value="Viudo(a)">Viudo(a)</option>
-        <option value="Conviviente">Conviviente</option>
-        </select required><br><br>
+            <label for="EC"><Strong>Estado civil:</Strong></label>
+            <select name="EC" id="EC">
+                <!--Menu desplegable con opciones-->
+                <option value="Soltero(a)">Soltero(a)</option>
+                <option value="Casado(a)">Casado(a)</option>
+                <option value="Viudo(a)">Viudo(a)</option>
+                <option value="Conviviente">Conviviente</option>
+            </select required><br><br>
 
-        <label for="NL"><strong>¿Desea recibir el newsletter?</strong></label>
-        <input type="checkbox" id="CB" name="CB" required><br><br><!--Para tildar-->
+            <label for="NL"><strong>¿Desea recibir el newsletter?</strong></label>
+            <input type="checkbox" id="CB" name="CB" required><br><br>
+            <!--Para tildar-->
 
-        <label for="CA"><strong><u>Motivo por el cual nos contactas:</u></strong></label><br>
-        <textarea id="CA" name="CA" rows="10" cols="60">Mi motivo es el siguiente...</textarea><br><!--Caja de comentarios-->
+            <label for="CA"><strong><u>Motivo por el cual nos contactas:</u></strong></label><br>
+            <textarea id="CA" name="CA" rows="10" cols="60">Mi motivo es el siguiente...</textarea><br>
+            <!--Caja de comentarios-->
 
-    
-    <div >
-        <input id="Enviar" type="submit" value="Enviar" id="Enviar"><!--Enviar formulario-->
-        <input id="Enviar" type="reset" value="Restablecer" id="Restablecer"><!--Boton para borrar todo-->
-    </div>
-</fieldset>
-        </form><br>
-            <footer class="Footercontacto">
-                <div>
-                    <a href="../index.html"><strong>Inicio</strong></a>
-                </div>
-            </footer>
+
+            <div>
+                <input id="Enviar" type="submit" value="Enviar" id="Enviar">
+                <!--Enviar formulario-->
+                <input id="Enviar" type="reset" value="Restablecer" id="Restablecer">
+                <!--Boton para borrar todo-->
+            </div>
+        </fieldset>
+    </form><br>
+    <footer class="Footercontacto">
+        <div>
+            <a href="../index.html"><strong>Inicio</strong></a>
+        </div>
+    </footer>
 </body>
+
 </html>
