@@ -28,7 +28,6 @@
     color: rgb(247, 133, 27);
     transition: color .5s;
     border-radius: 5px;
-
 }
 
 .menu-links-index a:hover {
@@ -52,7 +51,6 @@
     width: 200px;
     border-radius: 10px;
     transition: background-color .5s;
-
 }
 
 .botonK:hover {
@@ -126,7 +124,6 @@
     height: 110px;
     display: flex;
     align-items: center;
-
 }
 
 .links-footer-index {
@@ -150,7 +147,6 @@
     background-color: black;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .contenedor-login {
@@ -169,7 +165,7 @@
     text-align: center;
     color: rgb(247, 133, 27);
     font-size: 40px;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .input-login {
@@ -185,7 +181,20 @@
     padding: 10px;
     border: solid 1px;
     margin-bottom: 15px;
+}
 
+.contenedor-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.checkbox-login {
+    margin-left: 60px;
+    width: 20px;
+    height: 20px;
 
 }
 
@@ -246,29 +255,66 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 25px;
 }
 
 .botoninicio-login:hover {
     color: rgb(10, 47, 255);
 }
+
 /*De acá para abajo empieza REGISTRA-TU-NEGOCIO*/
 /*Utilizo bootstrap*/
-.botoninicioRN{
-display: block;
-margin-top: 50px;
-color:rgb(247, 133, 27) ;
-transition: 1s;
+.botoninicioRN {
+    display: block;
+    margin-top: 50px;
+    color: rgb(247, 133, 27);
+    transition: 1s;
 }
-.botoninicioRN:hover{
+
+.botoninicioRN:hover {
     color: white;
 }
-.listo,.resetear{
+
+.listo,
+.resetear {
     background-color: rgb(247, 133, 27);
     border: none;
     transition: 1s;
 }
-.listo:hover,.resetear:hover{
+
+.listo:hover,
+.resetear:hover {
     background-color: white;
     color: black;
     border: solid 1px rgb(247, 133, 27);
+}
+
+/*De acá para abajo INICIAR SESIÓN*/
+/*Utilizo bootstrap*/
+.contenedorF {
+    text-align: center;
+    align-items: center;
+}
+
+.botoningresar {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(247, 133, 27);
+    border: none;
+    transition: 1s;
+}
+
+.botoningresar:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px rgb(247, 133, 27);
+}
+
+.linkinicioIS a {
+    color: rgb(247, 133, 27);
+    transition: 1s;
+}
+
+.linkinicioIS a:hover {
+    color: white;
 }
