@@ -4,45 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>BERRY'S LI</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="icon" href="Imágenes/BERRY'S-ICON.png ">
     <link rel="Stylesheet" href="Estilos.css">
     <script src="https://kit.fontawesome.com/97a5fb02bf.js"></script>
 </head>
-
-<body class="body-login">
-    <form class="formulario-login">
-        <h1 class="h1-login">Bienvenido a <br><strong>BERRY´S</strong></h1>
-        <div class="contenedor-login">
-            <div class="input-login">
-                <i class="fa-solid fa-user icono"></i>
-                <input type="text" placeholder="Nombre de Usuario" class="input-NC-login">
+<body class="bg-dark">
+    <header>
+        <section class="bg-light header px-4">
+            <div class="col-6"> 
+                <a href="index.html"><img src="./Imágenes/img-header.png" class="imgheader"></a> 
             </div>
-            <div class="input-login">
-                <i class="fa-solid fa-envelope icono"></i>
-                <input type="email" placeholder="Email" class="input-E-login" required>
-            </div>
-            <div class="input-login">
-                <i class="fa-sharp fa-solid fa-key icono"></i>
-                <input type="password" placeholder="Contraseña" class="input-C-login">
-            </div>
-            <div class="input-login">
-                <i class="fa-sharp fa-solid fa-key icono"></i>
-                <input type="password" placeholder=" Repite tu Contraseña" class="input-C-login">
-            </div>
-            <div class="contenedor-checkbox">
-                <input type="checkbox" class="checkbox-login">
-                <label for="TC" class=""><strong>¿Aceptas nuestros términos y condiciones?</strong></label>
-            </div>
-            <input type="submit" value="Registrate" class="boton-registrarte">
-            <p class="p-login">Al registrarte aceptas nuestras Condiciones de uso y nuestra Política de privacidad</p>
-            <p class="p-login">Ya tenes cuenta?<a href="iniciar-sesion.html" class="link-iniciarsesion">Iniciar
-                    sesión</a></p>
+            <nav class="col-6 align-self-center iniciarsesion">
+                <h5>Ya tenés cuenta?</h5>
+                <a class="link-is" href="./iniciar-sesion.html">Sign In</a>
+            </nav>
+        </section>
+    </header>
+    <main class="px-5">
+        <h1 class="text-white text-center mt-4">Sign Up</h1>
+        <input type="email" placeholder="E-mail" class="col-12 mt-4 form-control">
+    <input type="text" placeholder="Nombre de Usuario" class="col-12 mt-4 form-control">
+        <input type="password" placeholder="Contraseña" class="col-12 mt-4 form-control">
+        <input type="password" placeholder="Repite la Contraseña" class="col-12 mt-4 form-control">
+        <div class="text-center mt-5">
+            <button type="submit" class="btn btn-primary listo">Sign up</button>
         </div>
-    </form>
-    <a href="index.html" class="botoninicio-login">Inicio</a>
+        
+    </main>
+    <footer class="footer mt-5">
+        <div class="align-self-center">
+            <a href="index.html"></a>
+        </div>
+    </footer>
 </body>
 
 </html>

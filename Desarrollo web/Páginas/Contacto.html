@@ -7,86 +7,92 @@
     <meta charset="UTF-8">
     <title>BERRY´S C</title>
     <link rel="Stylesheet" href="../Estilos.css">
+    <link rel="icon" href="../Imágenes/BERRY'S-ICON.png">
 </head>
 
 <body class="bg-dark text-white">
-    <header class="headercontacto">
-        <div class="text-center">
-            <h1>CONTACTO</h1>
-        </div>
+    <header>
+        <section class="bg-light header px-4">
+            <div class="col-6"> 
+                <a href="../index.html"><img src="../Imágenes/img-header.png" class="imgheader"></a> 
+            </div>
+        </section>
     </header>
-    <form id="Formulariocontacto">
-        <!--Formulario-->
-        <fieldset class="Fieldset">
-            <!--Caja que rodea-->
-            <!--"LEGEND" Nombre sobre la caja-->
-            <div class="text-center px-2">
-                <input type="text" id="NC" name="NC" placeholder="Nombre" class="nae mt-3" required><br>
-                <!--Nombre-->
-                <input type="text" id="AP" name="AP" placeholder="Apellido" class="nae mt-3" required><br>
-                <!--Apellido-->
-                <input type="email" id="EM" name="EM" placeholder="E-mail" class="nae mt-3" required><br><br>
-                <!--Email-->
-            </div>
-            <h2 class="text-center mt-4">Género:</h2>
-            <div class="genero mt-4">
-                <input type="radio" id="Mujer" name="Mujer" class="text-left radios">
-                <!--Para tildar solo uno (Debe tener el mismo name)-->
-                <label for="Mujer"><i>
-                        <h5>Mujer</h5>
-                    </i></label><br>
-                <input type="radio" id="Hombre" name="Mujer" class="radios">
-                <label for="Hombre"><i>
-                        <h5>Hombre</h5>
-                    </i></label><br>
-                <input type="radio" id="NB" name="Mujer" class="radios">
-                <label for="NB"><i>
-                        <h5>No Binario</h5>
-                    </i></label><br>
-                <input type="radio" id="O" name="Mujer" class="radios">
-                <label for="O"><i>
-                        <h5>Otro</h5>
-                    </i></label><br><br>
-
-            </div>
-            <section class="C-E">
-                <div class="col-6 text-center px-2">
-                    <h2>Fecha de nacimiento:</h2>
-                    <input type="date" id="D" name="D" class="col-12 select" required><br><br>
-                    <!--Fecha de nacimiento-->
+    <main class="px-5">
+        <h1 class="mt-2 px-3">Contacto</h1>
+        <form id="Formulariocontacto">
+            <!--Formulario-->
+            <fieldset class="Fieldset">
+                <!--Caja que rodea-->
+                <!--"LEGEND" Nombre sobre la caja-->
+                <div class="text-center px-2">
+                    <input type="text" id="NC" name="NC" placeholder="Nombre" class="nae mt-3 form-control" required><br>
+                    <!--Nombre-->
+                    <input type="text" id="AP" name="AP" placeholder="Apellido" class="nae mt-3 form-control" required><br>
+                    <!--Apellido-->
+                    <input type="email" id="EM" name="EM" placeholder="E-mail" class="nae mt-3 form-control" required><br><br>
+                    <!--Email-->
                 </div>
-                <div class="col-6 text-center px-2">
-                    <h2>Estado civil:</h2>
-                    <select name="EC" id="EC" class="col-12 select">
-                        <!--Menu desplegable con opciones-->
-                        <option value="Soltero(a)">Soltero(a)</option>
-                        <option value="Casado(a)">Casado(a)</option>
-                        <option value="Viudo(a)">Viudo(a)</option>
-                        <option value="Conviviente">Conviviente</option>
-                    </select required><br><br>
+                <h2 class="text-center mt-4">Género:</h2>
+                <div class="genero mt-4">
+                    <input type="radio" id="Mujer" name="Mujer" class="text-left radios">
+                    <!--Para tildar solo uno (Debe tener el mismo name)-->
+                    <label for="Mujer"><i>
+                            <h5>Mujer</h5>
+                        </i></label><br>
+                    <input type="radio" id="Hombre" name="Mujer" class="radios">
+                    <label for="Hombre"><i>
+                            <h5>Hombre</h5>
+                        </i></label><br>
+                    <input type="radio" id="NB" name="Mujer" class="radios">
+                    <label for="NB"><i>
+                            <h5>No Binario</h5>
+                        </i></label><br>
+                    <input type="radio" id="O" name="Mujer" class="radios">
+                    <label for="O"><i>
+                            <h5>Otro</h5>
+                        </i></label><br><br>
+    
                 </div>
-            </section>
-            <div class="text-center col-12 px-2 textareac">
-                <label for="CA"><strong><u>Motivo por el cual nos contactas:</u></strong></label><br>
-                <textarea class="col-12 mt-1 " id="CA" name="CA" rows="10"
-                    cols="60">Mi motivo es el siguiente...</textarea><br>
-                <!--Caja de comentarios-->
-            </div>
-            <div class="text-center mt-5">
-                <h6>Desea recibir el newsletter?</h6>
-                <input type="checkbox" id="CB" name="CB" required><br><br>
-                <!--Para tildar-->
-            </div>
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary listo">Listo</button>
-                <button type="reset" class="btn btn-primary resetear">Reset</button>
-                <!--Boton para borrar todo-->
-            </div>
-        </fieldset>
-    </form><br>
-    <footer class="Footercontacto">
-        <div class="text-center">
-            <a class="botoninicio-contacto" href="../index.html"><strong>Inicio</strong></a>
+                <section class="C-E">
+                    <div class="col-6 text-center px-2">
+                        <h2>Fecha de nacimiento:</h2>
+                        <input type="date" id="D" name="D" class="col-12 select form-control" required><br><br>
+                        <!--Fecha de nacimiento-->
+                    </div>
+                    <div class="col-6 text-center px-2">
+                        <h2>Estado civil:</h2>
+                        <select name="EC" id="EC" class="col-12 select">
+                            <!--Menu desplegable con opciones-->
+                            <option value="Soltero(a)">Soltero(a)</option>
+                            <option value="Casado(a)">Casado(a)</option>
+                            <option value="Viudo(a)">Viudo(a)</option>
+                            <option value="Conviviente">Conviviente</option>
+                        </select required><br><br>
+                    </div>
+                </section>
+                <div class="text-center col-12 px-2 textareac">
+                    <label for="CA"><strong><u>Motivo por el cual nos contactas:</u></strong></label><br>
+                    <textarea class="col-12 mt-1 form-control " id="CA" name="CA" rows="10"
+                        cols="60">Mi motivo es el siguiente...</textarea><br>
+                    <!--Caja de comentarios-->
+                </div>
+                <div class="text-center mt-5">
+                    <h6>Desea recibir el newsletter?</h6>
+                    <input type="checkbox" id="CB" name="CB" required><br><br>
+                    <!--Para tildar-->
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary listo">Listo</button>
+                    <button type="reset" class="btn btn-primary resetear">Reset</button>
+                    <!--Boton para borrar todo-->
+                </div>
+            </fieldset>
+        </form><br>
+    </main>
+    <footer class="footer mt-5">
+        <div class="align-self-center">
+            <a href="index.html"></a>
         </div>
     </footer>
 </body>

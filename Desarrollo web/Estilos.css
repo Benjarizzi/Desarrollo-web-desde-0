@@ -1,19 +1,7 @@
-.headerindex {
-    height: 3%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-}
-
-.imagen-header-index {
-    width: 160px;
-    height: 160px;
-}
-
 .navindex {
     display: flex;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    justify-content: right;
 }
 
 .menu-index {
@@ -31,11 +19,10 @@
 }
 
 .menu-links-index a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .seccion-kiosko {
-    background-color: rgb(255, 242, 204);
     padding: 20px;
     text-align: center;
 }
@@ -45,26 +32,8 @@
     height: 200px;
 }
 
-.botonK {
-    color: black;
-    background-color: rgb(250, 201, 94);
-    width: 200px;
-    border-radius: 10px;
-    transition: background-color .5s;
-}
-
-.botonK:hover {
-    background-color: rgb(247, 133, 27);
-}
-
-.linkK {
-    text-decoration: none;
-    color: black;
-
-}
 
 .seccion-restaurante {
-    background-color: rgb(255, 236, 179);
     padding: 20px;
     text-align: center;
 }
@@ -74,194 +43,26 @@
     height: 200px;
 }
 
-.botonR {
-    color: black;
-    background-color: rgb(250, 201, 94);
-    width: 200px;
-    border-radius: 10px;
-    transition: background-color .5s;
-}
-
-.botonR:hover {
-    background-color: rgb(247, 133, 27);
-}
-
-.linkR {
-    text-decoration: none;
-    color: black;
-}
 
 .seccion-farmacia {
-    background-color: rgb(255, 230, 153);
+   
     padding: 20px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .imgF {
     width: 200px;
     height: 200px;
 }
-
-.botonF {
-    color: black;
-    background-color: rgb(250, 201, 94);
-    width: 200px;
-    border-radius: 10px;
-    transition: background-color .5s;
-}
-
-.botonF:hover {
-    background-color: rgb(247, 133, 27);
-}
-
-.linkF {
-    text-decoration: none;
-    color: black;
-}
-
-.footerindex {
-    background-color: rgb(0, 0, 0);
-    height: 110px;
-    display: flex;
-    align-items: center;
-}
-
-.links-footer-index {
-    display: flex;
-    gap: 30px;
+.links-footer-index{
     list-style: none;
-}
-
-.links-footer-index a {
-    text-decoration: none;
-    color: rgb(247, 133, 27);
-    transition: color .5s;
-}
-
-.links-footer-index a:hover {
-    color: white;
-}
-
-/* De acá para abajo comienza el LOG-IN*/
-.body-login {
-    margin: 0;
-    background-color: black;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.contenedor-login {
-    width: 100%;
-    padding: 15px;
-}
-
-.formulario-login {
-    background: white;
-    margin-top: 150px;
-    padding: 3px;
-    max-width: 500px;
-}
-
-.h1-login {
-    text-align: center;
-    color: rgb(247, 133, 27);
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.input-login {
-    text-align: center;
-    width: 90%;
-}
-
-.input-NC-login,
-.input-E-login,
-.input-C-login {
-    font-size: 20px;
-    width: 82%;
-    padding: 10px;
-    border: solid 1px;
-    margin-bottom: 15px;
-}
-
-.contenedor-checkbox {
-    display: flex;
+    display: block;
+    gap: 30px;
     align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 15px;
-    margin-left: 10px;
 }
-
-.checkbox-login {
-    margin-left: 60px;
-    width: 20px;
-    height: 20px;
-
-}
-
-.icono {
-    min-width: 50px;
-    text-align: center;
-    color: #999999;
-}
-
-.boton-registrarte {
-    border: none;
-    width: 50%;
-    color: rgb(247, 133, 27);
-    font-size: 20px;
-    background: black;
-    padding: 15px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 11ms;
-    margin-left: 22%;
-
-
-}
-
-.boton-registrarte:hover {
-    background: rgb(246, 247, 189);
-}
-
-.p-login {
-    text-align: center;
-    width: 90%;
-}
-
-.link-iniciarsesion {
-    text-decoration: none;
-    color: rgb(247, 133, 27);
-    margin-left: 10px;
-    font-weight: 600;
-    transition: 1s;
-}
-
-.link-iniciarsesion:hover {
-    color: rgb(10, 47, 255);
-}
-
-@media(min-width:200px) {
-    .formulario-login {
-        margin: auto;
-        margin-top: 70px;
-        width: 500px;
-        border-radius: 5%;
-    }
-}
-
-.botoninicio-login {
-    color: white;
-    transition: 1s;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 25px;
-}
-
-.botoninicio-login:hover {
-    color: rgb(10, 47, 255);
-}
+/* De acá para abajo comienza el LOG-IN*/
+.botoninicio-login {}
 
 /*De acá para abajo empieza REGISTRA-TU-NEGOCIO*/
 /*Utilizo bootstrap*/
@@ -312,19 +113,12 @@
     border: solid 1px rgb(247, 133, 27);
 }
 
-.linkinicioIS a {
-    color: rgb(247, 133, 27);
-    transition: 1s;
-}
-
-.linkinicioIS a:hover {
-    color: white;
-}
-
 /*De acá para abajo NOSOTROS*/
 .mapa-nosotros {
     width: 100% !important;
     transition: 1s;
+    height: 250px;
+    border-radius: 15px;
 }
 
 .mapa-nosotros:hover {
@@ -367,7 +161,7 @@
 
 .botoninicio-contacto {
     margin-top: 50px;
-    color: rgb(247, 133, 27);
+    color: #f7851b;
     transition: 1s;
 }
 
@@ -382,4 +176,37 @@
 .textareac:hover {
     width: 50%;
     margin-left: 25%;
+}
+
+.header {
+    height: 100px !important;
+    display: flex;
+}
+
+.imgheader {
+    height: 100px;
+}
+
+.iniciarsesion {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.link-is {
+    text-decoration: none;
+    color: #f7851b;
+}
+
+.footer{
+    background-color: #f7851b;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
