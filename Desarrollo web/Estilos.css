@@ -129,6 +129,7 @@
 .links-footer-index {
     display: flex;
     gap: 30px;
+    list-style: none;
 }
 
 .links-footer-index a {
@@ -280,6 +281,7 @@
     background-color: rgb(247, 133, 27);
     border: none;
     transition: 1s;
+    width: 20%;
 }
 
 .listo:hover,
@@ -317,4 +319,67 @@
 
 .linkinicioIS a:hover {
     color: white;
+}
+
+/*De acá para abajo NOSOTROS*/
+.mapa-nosotros {
+    width: 100% !important;
+    transition: 1s;
+}
+
+.mapa-nosotros:hover {
+    width: 500px !important;
+}
+
+.link-inicio-nosotros {
+    color: rgb(247, 133, 27);
+    transition: 0, 7ms;
+}
+
+.link-inicio-nosotros:hover {
+    color: white;
+}
+
+/*Contacto*/
+.nae {
+    width: 100%;
+}
+
+.genero {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radios {
+    width: 15px;
+    height: 15px;
+}
+
+.C-E {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select {
+    height: 29px;
+}
+
+.botoninicio-contacto {
+    margin-top: 50px;
+    color: rgb(247, 133, 27);
+    transition: 1s;
+}
+
+.botoninicio-contacto:hover {
+    color: white;
+}
+
+.textareac {
+    transition: 1s;
+}
+
+.textareac:hover {
+    width: 50%;
+    margin-left: 25%;
 }
