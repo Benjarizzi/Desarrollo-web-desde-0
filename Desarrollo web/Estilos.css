@@ -150,7 +150,6 @@
 }
 
 .header {
-    
     display: flex;
 }
 
@@ -171,8 +170,6 @@
 
 .footer {
     background-color: #f7851b;
-    
-    margin-bottom: 0;
     
 }
 .footer ul{
