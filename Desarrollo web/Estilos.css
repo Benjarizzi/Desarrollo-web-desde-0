@@ -21,48 +21,19 @@
 .menu-links-index a:hover {
     color: rgb(0, 0, 0);
 }
-
-.seccion-kiosko {
-    padding: 20px;
-    text-align: center;
-}
-
 .imgK {
     width: 200px;
     height: 200px;
 }
-
-
-.seccion-restaurante {
-    padding: 20px;
-    text-align: center;
-}
-
 .imgR {
     width: 200px;
     height: 200px;
 }
-
-
-.seccion-farmacia {
-   
-    padding: 20px;
-    text-align: center;
-    margin-top: 15px;
-}
-
 .imgF {
     width: 200px;
     height: 200px;
 }
-.links-footer-index{
-    list-style: none;
-    display: block;
-    gap: 30px;
-    align-items: center;
-}
 /* De acá para abajo comienza el LOG-IN*/
-.botoninicio-login {}
 
 /*De acá para abajo empieza REGISTRA-TU-NEGOCIO*/
 /*Utilizo bootstrap*/
@@ -198,15 +169,16 @@
     color: #f7851b;
 }
 
-.footer{
+.footer {
     background-color: #f7851b;
     height: 200px;
     margin-bottom: 0;
+    
 }
-
-.footer a {
-    text-decoration: none;
+.footer ul{
+    list-style: none;
     color: white;
-    display: flex;
-    justify-content: center;
+    text-decoration: none;
 }
+    
+    
