@@ -7,19 +7,51 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Nosotros</title>
-    <link rel="Stylesheet" href="../Styles/Estilos.css">
+    <link rel="Stylesheet" href="../Styles/estilo.css">
     <link rel="icon" href="../Imágenes/BERRY'S-ICON.png ">
 </head>
 
 <body class="bg-dark text-white">
     <header>
-        <section class="bg-light header px-4">
-            <div class="col-6">
-                <a href="../index.html"><img src="../Imágenes/img-header1.png" class="imgheader"></a>
+        <nav class=" navbar bg-light fixed-top">
+            <div class="container-fluid">
+                <a href="../index.html" class="navbar-brand "><img src="../Imágenes/img-header1.png" class="imgheader"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item ">
+                                <a href="../Páginas/Registra-tu-negocio.html" class="navbar-brand a-index">Registrá tu Negocio</a>
+                            </li>
+                            <li class="nav-item mt-4">
+                                <a href="../Páginas/Log-in.html" class="navbar-brand a-index">Sign in / Sign up</a>
+                            </li>
+                            <li class="nav-item dropdown mt-3">
+                                <a class="nav-link dropdown-toggle a-index" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../Páginas/Nosotros.html" class="navbar-brand">Nosotros</a>
+                                    <li><a href="../Páginas/Contacto.html" class="navbar-brand">Contacto</a>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </section>
+        </nav>
+
     </header>
-    <main>
+    <main class="main">
         <h1 class="text-center mt-4">Nosotros</h1>
         <div class="mainnosotros">
             <h3 class="text-center">

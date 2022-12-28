@@ -1,0 +1,32 @@
+.nae {
+    width: 100%;
+}
+
+.genero {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radios {
+    width: 15px;
+    height: 15px;
+}
+
+.C-E {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select {
+    height: 29px;
+}
+
+.textareac {
+    transition: 1s;
+}
+
+.textareac:hover {
+    width: 50%;
+    margin-left: 25%;
+}

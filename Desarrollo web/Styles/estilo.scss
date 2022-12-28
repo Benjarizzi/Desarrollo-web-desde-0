@@ -1,0 +1,10 @@
+@import "./parciales/variables";/*Siempre arriba de todo*/
+@import "./parciales/reset";/*Siempre abajo de variables*/
+@import "./parciales/nosotros";
+@import "./parciales/main";
+@import "./parciales/login";
+@import "./parciales/iniciarsesion";
+@import "./parciales/index";
+@import "./parciales/header";
+@import "./parciales/contacto";
+@import "./parciales/boton";/*Si hubiera media queries irían abajo de todo*/

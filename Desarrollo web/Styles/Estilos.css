@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .a-index{
     color: #f7851b !important;
 }
 .main{
-    margin-top: 120px;
+    margin-top: 140px;
 }
 .imgK {
     width: 200px;
@@ -24,16 +31,6 @@
 
 /*De acá para abajo empieza REGISTRA-TU-NEGOCIO*/
 /*Utilizo bootstrap*/
-.botoninicioRN {
-    display: block;
-    margin-top: 50px;
-    color: rgb(247, 133, 27);
-    transition: 1s;
-}
-
-.botoninicioRN:hover {
-    color: white;
-}
 
 .listo,
 .resetear {
@@ -83,15 +80,6 @@
     width: 500px !important;
 }
 
-.link-inicio-nosotros {
-    color: rgb(247, 133, 27);
-    transition: 0, 7ms;
-}
-
-.link-inicio-nosotros:hover {
-    color: white;
-}
-
 /*Contacto*/
 .nae {
     width: 100%;
@@ -117,16 +105,6 @@
     height: 29px;
 }
 
-.botoninicio-contacto {
-    margin-top: 50px;
-    color: #f7851b;
-    transition: 1s;
-}
-
-.botoninicio-contacto:hover {
-    color: white;
-}
-
 .textareac {
     transition: 1s;
 }
@@ -147,10 +125,13 @@
 .iniciarsesion {
     display: flex;
     justify-content: right;
-    gap: 10px;
 }
 
 .link-is {
     text-decoration: none;
     color: #f7851b;
+    
+}
+.iniciarsesion{
+    gap: 10px;
 }
