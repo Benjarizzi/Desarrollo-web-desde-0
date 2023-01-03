@@ -11,6 +11,8 @@
 .radios {
     width: 15px;
     height: 15px;
+    accent-color: $colorprincipal;
+    
 }
 
 .C-E {
@@ -29,4 +31,7 @@
 .textareac:hover {
     width: 50%;
     margin-left: 25%;
+}
+.checkbox{
+    accent-color: $colorprincipal;
 }

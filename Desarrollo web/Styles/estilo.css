@@ -96,6 +96,7 @@
 .radios {
   width: 15px;
   height: 15px;
+  accent-color: rgb(247, 133, 27);
 }
 
 .C-E {
@@ -114,6 +115,10 @@
 .textareac:hover {
   width: 50%;
   margin-left: 25%;
+}
+
+.checkbox {
+  accent-color: rgb(247, 133, 27);
 }
 
 .listo,
