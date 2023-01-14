@@ -136,4 +136,23 @@
   border: solid 1px rgb(247, 133, 27);
 }
 
-/*Si hubiera media queries irían abajo de todo*//*# sourceMappingURL=estilo.css.map */
+/*Si hubiera media queries irían abajo de todo*/
+.titsec {
+  margin-right: 60px !important;
+  font-size: 20px;
+  color: rgb(247, 133, 27);
+  font-weight: 700;
+}
+
+.chocolate {
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/12/07/63340/chocolate-07.jpg);
+  height: 400px;
+}
+
+.gomitas {
+  background-image: url("");
+}
+
+.bebidas {
+  background-image: url("");
+}/*# sourceMappingURL=estilo.css.map */
