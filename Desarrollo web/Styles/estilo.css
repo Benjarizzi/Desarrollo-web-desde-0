@@ -60,19 +60,19 @@
 .imgK {
   width: 200px;
   height: 200px;
-  margin-top: 12px;
+  margin-top: 40px;
 }
 
 .imgR {
   width: 200px;
   height: 200px;
-  margin-top: 12px;
+  margin-top: 40px;
 }
 
 .imgF {
   width: 200px;
   height: 200px;
-  margin-top: 12px;
+  margin-top: 40px;
 }
 
 .a-index {
@@ -144,15 +144,20 @@
   font-weight: 700;
 }
 
-.chocolate {
-  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/12/07/63340/chocolate-07.jpg);
-  height: 400px;
+.tarjetita {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
-.gomitas {
-  background-image: url("");
+.boton {
+  background-color: rgb(247, 133, 27);
+  border: none;
+  transition: 1s;
 }
 
-.bebidas {
-  background-image: url("");
+.boton:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px rgb(247, 133, 27);
 }/*# sourceMappingURL=estilo.css.map */
