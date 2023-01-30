@@ -75,6 +75,10 @@
   margin-top: 40px;
 }
 
+.botonNav {
+  border-color: blue;
+}
+
 .a-index {
   color: rgb(247, 133, 27) !important;
 }
@@ -144,10 +148,6 @@
   font-weight: 700;
 }
 
-.tarjetita {
-  margin-top: 40px;
-}
-
 .boton {
   background-color: rgb(247, 133, 27);
   border: none;
@@ -158,4 +158,15 @@
   background-color: white;
   color: black;
   border: solid 1px rgb(247, 133, 27);
+}
+
+.precio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+}
+.precio h5 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 5px;
 }/*# sourceMappingURL=estilo.css.map */
