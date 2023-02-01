@@ -10,3 +10,26 @@
     display:flex;
     justify-content: right;
 }
+.ytc{
+    margin-top: 20px;
+    h5{
+        color: white;
+    }
+    a{
+        transition: 1s;
+    }
+    a:hover{
+        color: rgb(248, 196, 148);
+    }
+}
+@media screen and (max-width:768px){
+    .ytc{
+        display: flex;
+        justify-content: right;
+        a{
+            margin-left: 10px;
+            
+            align-items: center;
+        }
+    }
+}

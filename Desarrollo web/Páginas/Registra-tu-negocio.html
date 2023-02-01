@@ -18,6 +18,9 @@
     <nav class=" navbar bg-light fixed-top">
         <div class="container-fluid">
             <a href="../index.html" class="navbar-brand "><img src="../Imágenes/img-header1.png" class="imgheader"></a>
+            <div class="titsec text-center">
+              <h4>REGISTRÁ TU NEGOCIO</h4>
+          </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -54,7 +57,8 @@
 
 </header>
 <main class="px-3 main">
-  <h1 class="text-center mt-4"> Registrá tu negocio</h1>
+  <div class=" container separación"></div>
+  <div class="container">
   <select class="form-select mt-4" aria-label="Default select example">
     <option selected>Tipo de Negocio</option>
     <option value="1">Kiosko</option>
@@ -62,16 +66,16 @@
     <option value="3">Farmacia</option>
   </select>
   <div class="row g-3 mt-5">
-    <div class="col">
+    <div class="col-md-6">
       <input type="text" class="form-control bordeinput " placeholder="Nombre" aria-label="First name">
     </div>
-    <div class="col">
+    <div class="col-md-6">
       <input type="text" class="form-control bordeinput" placeholder="Apellido" aria-label="Last name">
     </div>
     <div class="col">
       <input type="text" class="form-control bordeinput" placeholder="Nombre del Local" aria-label="First name">
     </div>
-    <div class="col-12">
+    <div class="col-md-12">
       <input type="text" class="form-control bordeinput" id="inputAddress" placeholder="Dirección del Local">
     </div>
      <div class="text-center mt-5 px-5">
@@ -117,9 +121,10 @@
         <option value="23">Tucumán</option>
       </select>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 cp">
       <label for="inputZip" class="form-label">Código Postal</label>
       <input type="text" class="form-control bordeinput" id="inputZip">
+    </div>
     </div>
     <section class="row g-2">
       <div class="text-center mt-4">

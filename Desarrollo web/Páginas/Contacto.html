@@ -18,6 +18,9 @@
         <nav class=" navbar bg-light fixed-top">
             <div class="container-fluid">
                 <a href="../index.html" class="navbar-brand "><img src="../Imágenes/img-header1.png" class="imgheader"></a>
+                <div class="titsec text-center">
+                    <h4>CONTACTO</h4>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -53,41 +56,50 @@
         </nav>
 
     </header>
-    <main class="px-5 main">
-        <h1 class="mt-2 px-3">Contacto</h1>
-        <form id="Formulariocontacto">
-            <!--Formulario-->
-            <fieldset class="Fieldset">
-                <!--Caja que rodea-->
-                <!--"LEGEND" Nombre sobre la caja-->
-                <div class="text-center px-2">
-                    <input type="text" id="NC" name="NC" placeholder="Nombre" class="nae mt-3 form-control" required><br>
+    <main class=" main">
+        <div class=" container separación"></div>
+        <div class="container">
+                <div class="text-center row g-3 ">
+                    <div class="col-md-6 ">
+                        <input type="text" id="NC" name="NC" placeholder="Nombre" class=" mt-3 form-control" required><br>
                     <!--Nombre-->
-                    <input type="text" id="AP" name="AP" placeholder="Apellido" class="nae mt-3 form-control" required><br>
-                    <!--Apellido-->
-                    <input type="email" id="EM" name="EM" placeholder="E-mail" class="nae mt-3 form-control" required><br><br>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" id="AP" name="AP" placeholder="Apellido" class=" mt-3 form-control" required><br>
+                        <!--Apellido-->
+                    </div>
+                    <div class="col-md-12">
+                        <input type="email" id="EM" name="EM" placeholder="E-mail" class=" mt-3 form-control" required><br><br>
                     <!--Email-->
+                    </div>
                 </div>
                 <h2 class="text-center mt-4">Género:</h2>
-                <div class="genero mt-4">
-                    <input type="radio" id="Mujer" name="Mujer" class="text-left radios">
+                <div class="genero mt-4 container">
+                    <div class="col-md-3">
+                        <input type="radio" id="Mujer" name="Mujer" class="text-left radios">
                     <!--Para tildar solo uno (Debe tener el mismo name)-->
                     <label for="Mujer"><i>
                             <h5>Mujer</h5>
                         </i></label><br>
-                    <input type="radio" id="Hombre" name="Mujer" class="radios">
-                    <label for="Hombre"><i>
-                            <h5>Hombre</h5>
-                        </i></label><br>
-                    <input type="radio" id="NB" name="Mujer" class="radios">
+                    </div>
+                    <div class="col-md-3 separaRadio">
+                        <input type="radio" id="Hombre" name="Mujer" class="radios">
+                        <label for="Hombre"><i>
+                                <h5>Hombre</h5>
+                            </i></label><br>
+                    </div>
+                    <div class="col-md-3 separaRadio">
+                        <input type="radio" id="NB" name="Mujer" class="radios">
                     <label for="NB"><i>
                             <h5>No Binario</h5>
                         </i></label><br>
-                    <input type="radio" id="O" name="Mujer" class="radios">
+                    </div>
+                    <div class="col-md-3 separaRadio">   
+                        <input type="radio" id="O" name="Mujer" class="radios">
                     <label for="O"><i>
                             <h5>Otro</h5>
                         </i></label><br><br>
-    
+                    </div>
                 </div>
                 <section class="C-E">
                     <div class="col-6 text-center px-2">
@@ -122,8 +134,7 @@
                     <button type="reset" class="btn btn-primary resetear">Reset</button>
                     <!--Boton para borrar todo-->
                 </div>
-            </fieldset>
-        </form><br>
+            </div>
     </main>
     
 

@@ -4,15 +4,14 @@
 
 .genero {
     text-align: center;
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .radios {
     width: 15px;
     height: 15px;
-    accent-color: $colorprincipal;
-    
+    accent-color: $colorprincipal;    
 }
 
 .C-E {
@@ -34,4 +33,17 @@
 }
 .checkbox{
     accent-color: $colorprincipal;
+}
+@media screen and (max-width:768px){
+    .genero{
+        display:block;
+    }
+    .separaRadio{
+        margin-top: 30px;
+    }
+    .C-E{
+        h2{
+            font-size: 25px;
+        }
+    }
 }
